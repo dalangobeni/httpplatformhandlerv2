@@ -14,7 +14,7 @@
 #define CS_ASPNETCORE_CLEAN_SHADOW_DIRECTORY_CONTENT     L"cleanShadowCopyDirectory"
 #define CS_ASPNETCORE_DISALLOW_ROTATE_CONFIG             L"disallowRotationOnConfigChange"
 #define CS_ASPNETCORE_SHUTDOWN_DELAY                     L"shutdownDelay"
-#define CS_ASPNETCORE_SHUTDOWN_DELAY_ENV                 L"ANCM_shutdownDelay"
+#define CS_ASPNETCORE_SHUTDOWN_DELAY_ENV                 L"HTTP_PLATFORM_shutdownDelay"
 
 ShimOptions::ShimOptions(const ConfigurationSource &configurationSource) :
         m_hostingModel(HOSTING_UNKNOWN),
